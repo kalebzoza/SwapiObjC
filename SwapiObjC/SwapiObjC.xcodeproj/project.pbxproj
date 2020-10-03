@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		5A73E0C42526618E0048E6A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A73E0C32526618E0048E6A7 /* AppDelegate.m */; };
 		5A73E0C72526618E0048E6A7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A73E0C62526618E0048E6A7 /* SceneDelegate.m */; };
-		5A73E0CA2526618E0048E6A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A73E0C92526618E0048E6A7 /* ViewController.m */; };
 		5A73E0CD2526618E0048E6A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A73E0CB2526618E0048E6A7 /* Main.storyboard */; };
 		5A73E0CF252661900048E6A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A73E0CE252661900048E6A7 /* Assets.xcassets */; };
 		5A73E0D2252661900048E6A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A73E0D0252661900048E6A7 /* LaunchScreen.storyboard */; };
 		5A73E0D5252661900048E6A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A73E0D4252661900048E6A7 /* main.m */; };
+		5A73E0E5252664480048E6A7 /* KCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A73E0E4252664480048E6A7 /* KCPerson.m */; };
+		5A73E0ED25266DDD0048E6A7 /* KCPersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A73E0EC25266DDD0048E6A7 /* KCPersonController.m */; };
+		5A73E0F1252675450048E6A7 /* KCPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A73E0F0252675450048E6A7 /* KCPersonViewController.swift */; };
+		5A73E0F4252687740048E6A7 /* KCPersonArrayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A73E0F3252687740048E6A7 /* KCPersonArrayTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +25,18 @@
 		5A73E0C32526618E0048E6A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5A73E0C52526618E0048E6A7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		5A73E0C62526618E0048E6A7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		5A73E0C82526618E0048E6A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5A73E0C92526618E0048E6A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5A73E0CC2526618E0048E6A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A73E0CE252661900048E6A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A73E0D1252661900048E6A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A73E0D3252661900048E6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A73E0D4252661900048E6A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A73E0E3252664480048E6A7 /* KCPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCPerson.h; sourceTree = "<group>"; };
+		5A73E0E4252664480048E6A7 /* KCPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCPerson.m; sourceTree = "<group>"; };
+		5A73E0EB25266DDD0048E6A7 /* KCPersonController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCPersonController.h; sourceTree = "<group>"; };
+		5A73E0EC25266DDD0048E6A7 /* KCPersonController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCPersonController.m; sourceTree = "<group>"; };
+		5A73E0EF252675450048E6A7 /* SwapiObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwapiObjC-Bridging-Header.h"; sourceTree = "<group>"; };
+		5A73E0F0252675450048E6A7 /* KCPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCPersonViewController.swift; sourceTree = "<group>"; };
+		5A73E0F3252687740048E6A7 /* KCPersonArrayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCPersonArrayTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +69,80 @@
 		5A73E0C12526618E0048E6A7 /* SwapiObjC */ = {
 			isa = PBXGroup;
 			children = (
+				5A73E0DF2526620F0048E6A7 /* Model */,
+				5A73E0DE252662090048E6A7 /* Controllers */,
+				5A73E0DD252662030048E6A7 /* Views */,
+				5A73E0DC252661DB0048E6A7 /* Resources */,
+			);
+			path = SwapiObjC;
+			sourceTree = "<group>";
+		};
+		5A73E0DC252661DB0048E6A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				5A73E0C22526618E0048E6A7 /* AppDelegate.h */,
 				5A73E0C32526618E0048E6A7 /* AppDelegate.m */,
 				5A73E0C52526618E0048E6A7 /* SceneDelegate.h */,
 				5A73E0C62526618E0048E6A7 /* SceneDelegate.m */,
-				5A73E0C82526618E0048E6A7 /* ViewController.h */,
-				5A73E0C92526618E0048E6A7 /* ViewController.m */,
-				5A73E0CB2526618E0048E6A7 /* Main.storyboard */,
 				5A73E0CE252661900048E6A7 /* Assets.xcassets */,
 				5A73E0D0252661900048E6A7 /* LaunchScreen.storyboard */,
 				5A73E0D3252661900048E6A7 /* Info.plist */,
 				5A73E0D4252661900048E6A7 /* main.m */,
 			);
-			path = SwapiObjC;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5A73E0DD252662030048E6A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A73E0E22526621D0048E6A7 /* Storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5A73E0DE252662090048E6A7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5A73E0EA25266DC50048E6A7 /* View Controller  */,
+				5A73E0E925266DBE0048E6A7 /* Model Controller  */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5A73E0DF2526620F0048E6A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A73E0E3252664480048E6A7 /* KCPerson.h */,
+				5A73E0E4252664480048E6A7 /* KCPerson.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A73E0E22526621D0048E6A7 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5A73E0CB2526618E0048E6A7 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		5A73E0E925266DBE0048E6A7 /* Model Controller  */ = {
+			isa = PBXGroup;
+			children = (
+				5A73E0EB25266DDD0048E6A7 /* KCPersonController.h */,
+				5A73E0EC25266DDD0048E6A7 /* KCPersonController.m */,
+			);
+			path = "Model Controller ";
+			sourceTree = "<group>";
+		};
+		5A73E0EA25266DC50048E6A7 /* View Controller  */ = {
+			isa = PBXGroup;
+			children = (
+				5A73E0F0252675450048E6A7 /* KCPersonViewController.swift */,
+				5A73E0EF252675450048E6A7 /* SwapiObjC-Bridging-Header.h */,
+				5A73E0F3252687740048E6A7 /* KCPersonArrayTableViewController.swift */,
+			);
+			path = "View Controller ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,10 +171,12 @@
 		5A73E0B72526618E0048E6A7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = KC;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					5A73E0BE2526618E0048E6A7 = {
 						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
 					};
 				};
 			};
@@ -145,9 +216,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A73E0CA2526618E0048E6A7 /* ViewController.m in Sources */,
+				5A73E0ED25266DDD0048E6A7 /* KCPersonController.m in Sources */,
 				5A73E0C42526618E0048E6A7 /* AppDelegate.m in Sources */,
+				5A73E0F4252687740048E6A7 /* KCPersonArrayTableViewController.swift in Sources */,
 				5A73E0D5252661900048E6A7 /* main.m in Sources */,
+				5A73E0F1252675450048E6A7 /* KCPersonViewController.swift in Sources */,
+				5A73E0E5252664480048E6A7 /* KCPerson.m in Sources */,
 				5A73E0C72526618E0048E6A7 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,15 +365,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LTSUF8MAG6;
-				INFOPLIST_FILE = SwapiObjC/Info.plist;
+				INFOPLIST_FILE = SwapiObjC/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.KalebCarrizoza.SwapiObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwapiObjC/Controllers/View Controller /SwapiObjC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -309,15 +387,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LTSUF8MAG6;
-				INFOPLIST_FILE = SwapiObjC/Info.plist;
+				INFOPLIST_FILE = SwapiObjC/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.KalebCarrizoza.SwapiObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwapiObjC/Controllers/View Controller /SwapiObjC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
